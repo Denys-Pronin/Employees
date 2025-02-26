@@ -1,0 +1,36 @@
+.list {
+  display: flex;
+}
+
+.button {
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  border: 1px solid #fff;
+  padding: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.item:nth-child(1) {
+  button {
+    border-radius: 4px 0 0 4px;
+  }
+}
+.item:nth-child(2) {
+  .button {
+    border-left: transparent;
+    border-right: transparent;
+  }
+}
+
+.item:nth-child(3) {
+  .button {
+    border-radius: 0 4px 4px 0;
+  }
+}
+
+.active {
+  color: #425a7b;
+  background-color: #fff;
+}

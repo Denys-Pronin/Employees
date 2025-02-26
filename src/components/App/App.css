@@ -1,0 +1,12 @@
+#root {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.search_wrapper {
+  background-color: #425a7b;
+  color: #fff;
+  margin-bottom: 20px;
+  padding: 14px;
+  border-radius: 8px;
+}
