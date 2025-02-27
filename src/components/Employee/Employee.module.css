@@ -1,13 +1,15 @@
 .wrapper {
-  border: 1px solid #25252540;
+  border: 1px solid #bac06c;
   border-radius: 4px;
   padding: 10px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: #425a7b;
+  color: #252525;
+  background-color: #ffffff;
   div {
     display: flex;
+    align-items: center;
     p {
       margin-right: 100px;
     }
@@ -18,13 +20,25 @@
 .promote_btn {
   color: #000000;
   padding: 9px;
-  background-color: rgba(255, 255, 255, 0.212) 000;
+  background-color: rgba(255, 255, 255, 0.212);
   border-radius: 4px;
   border: transparent;
+  cursor: pointer;
+}
+
+.promote_btn:hover {
+  background-color: rgba(21, 255, 0, 0.3);
+}
+.delete_btn:hover {
+  background-color: rgba(255, 0, 0, 0.3);
 }
 
 .btns {
   display: flex;
   gap: 10px;
   align-items: center;
+}
+
+.promoted {
+  background-color: rgba(21, 255, 0, 0.3);
 }

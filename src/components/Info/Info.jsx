@@ -1,10 +1,10 @@
 import s from "./Info.module.css";
-const Info = () => {
+const Info = ({ employees }) => {
+  const promotedEmployees = employees.filter((employee) => employee.promoted);
   return (
     <div className={s.wrapper}>
-      <p className={s.textBig}>Employee record keeping in the company N </p>
-      <p>Total number of employees: </p>
-      <p>The prize will be awarded to: 0</p>
+      <p className={s.textBig}>Total number of employees: {employees.length}</p>
+      <p>The prize will be awarded to: {promotedEmployees.length}</p>
     </div>
   );
 };

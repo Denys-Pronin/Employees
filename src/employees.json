@@ -1,18 +1,32 @@
 [
   {
-    "name": "arun",
-    "id": 1
+    "name": "Arun",
+    "id": 1,
+    "salary": 200,
+    "promoted": false
   },
   {
-    "name": "rajesh",
-    "id": 2
+    "name": "Rajesh",
+    "id": 2,
+    "salary": 300,
+    "promoted": false
   },
   {
-    "name": "moorthy",
-    "id": 3
+    "name": "Moorthy",
+    "id": 3,
+    "salary": 500,
+    "promoted": false
   },
   {
-    "name": "raja",
-    "id": 4
+    "name": "Raja",
+    "id": 4,
+    "salary": 250,
+    "promoted": false
+  },
+  {
+    "name": "Denys",
+    "id": 5,
+    "salary": 1250,
+    "promoted": true
   }
 ]

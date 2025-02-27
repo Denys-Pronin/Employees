@@ -1,7 +1,9 @@
 .wrapper {
-  background-color: #425a7b;
+  background-color: #0d460c;
   padding: 14px;
   border-radius: 8px;
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.35);
+  color: #f0f78e;
 }
 
 .form {
@@ -12,22 +14,22 @@
 .input {
   padding: 8px;
   border-radius: 4px;
-  border: transparent;
+  border: 1px solid #f0f78e;
 }
 
 .button {
   background-color: transparent;
-  border: 1px solid #fff;
+  border: 1px solid #f0f78e;
   padding: 8px 12px;
-  color: #fff;
+  color: #f0f78e;
   cursor: pointer;
   border-radius: 4px;
 }
 .button:hover {
-  background-color: #fff;
-  border: 1px solid #fff;
+  background-color: #f0f78e;
+  border: 1px solid #0d460c;
   padding: 8px 12px;
-  color: #425a7b;
+  color: #0d460c;
   cursor: pointer;
   border-radius: 4px;
 }

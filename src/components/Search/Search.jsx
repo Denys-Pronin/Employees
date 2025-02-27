@@ -1,7 +1,12 @@
 import s from "./Search.module.css";
-const Search = () => {
+const Search = ({ setSearchQuery }) => {
   return (
-    <input className={s.input} placeholder="Search employees" type="text" />
+    <input
+      onChange={(e) => setSearchQuery(e.target.value)}
+      className={s.input}
+      placeholder="Search employees"
+      type="text"
+    />
   );
 };
 

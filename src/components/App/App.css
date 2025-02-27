@@ -4,9 +4,10 @@
 }
 
 .search_wrapper {
-  background-color: #425a7b;
+  background-color: #ffffff;
   color: #fff;
   margin-bottom: 20px;
   padding: 14px;
   border-radius: 8px;
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.35);
 }

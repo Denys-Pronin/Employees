@@ -1,14 +1,17 @@
-/* eslint-disable react/prop-types */
 import Employee from "../Employee/Employee.jsx";
 import s from "./EmployeesList.module.css";
 
-const EmployeesList = ({ employees }) => {
+const EmployeesList = ({ employees, deleteEmployee, promoteEmployee }) => {
   return (
     <ul className={s.list}>
       {employees.map((employee) => {
         return (
           <li key={employee.id}>
-            <Employee employee={employee} />
+            <Employee
+              employee={employee}
+              deleteEmployee={deleteEmployee}
+              promoteEmployee={promoteEmployee}
+            />
           </li>
         );
       })}
