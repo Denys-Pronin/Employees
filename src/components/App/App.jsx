@@ -1,4 +1,5 @@
 import "./App.css";
+import React from "react";
 import Info from "../Info/Info.jsx";
 import Search from "../Search/Search.jsx";
 import Filter from "../Filter/Filter.jsx";
