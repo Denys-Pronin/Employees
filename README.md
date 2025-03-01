@@ -1,3 +1,3 @@
 # Employees
 
-Employees CRUD project
+Employees project
